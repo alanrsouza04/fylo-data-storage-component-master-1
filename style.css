@@ -1,0 +1,150 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.sr-only {
+    position: absolute;
+    left: -10000px;
+    width: 1px;
+    height: 1px;
+    top: auto;
+    overflow: hidden;
+}
+
+main {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100vw 50vh;
+    background-color: hsl(229, 57%, 11%);
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.card {
+    display: flex;
+    width: 70vw;
+}
+
+.cleft {
+    background-color: hsl(228, 56%, 26%);
+    display: flex;
+    flex-direction: column;
+    height: 8em;
+    padding-left: 1em;
+    padding-top: 1em;
+    padding-bottom: 1.5em;
+    padding-right: 5em;
+    margin-right: 1em;
+    border-radius: 5px;
+    border-top-right-radius: 70px;
+}
+
+.logo {
+    margin-bottom: 1em;
+    width: 96px;
+}
+
+.icon {
+    width: 1em;
+    height: 1em;
+    padding: 0.5em;
+    margin-right: 1em;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 5px;
+}
+
+.cright {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    justify-content: flex-end;
+}
+
+.bc {
+    align-self: flex-end;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin-right: 2em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.tri {
+    align-self: end;
+    width: 0;
+    height: 0;
+    border-top: 20px solid white;
+    border-left: 20px solid transparent;
+    z-index: 2;
+}
+
+.bcp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px 5px;
+    width: 10em;
+    height: 3em;
+    background-color: white;
+    border-radius: 10px 10px 0px 10px;
+}
+
+.b18 {
+    font-weight: bold;
+    font-size: x-large;
+    margin-right: 5px;
+}
+
+.gl {
+    font-size: small;
+    color: hsl(243, 100%, 93%);
+}
+
+.b {
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    background-color: hsl(228, 56%, 26%);
+    border-radius: 10px;
+}
+
+.b81 {
+    font-weight: bolder;
+    color: hsl(243, 100%, 93%);
+}
+
+.p {
+    color: hsl(229, 7%, 55%);
+}
+
+.bar {
+    height: 0.5em;
+    padding: 5px;
+    background-color: hsl(229, 57%, 11%);
+    display: flex;
+    margin: 10px 0;
+}
+
+.bar::before {
+    content: "";
+
+    width: 80%;
+    background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+}
+
+.n {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    color: hsl(243, 100%, 93%);
+}
